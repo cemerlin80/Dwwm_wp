@@ -1,0 +1,84 @@
+/* 
+Theme Name: Boutique
+Description: Mon premier template WordPress, avec Bootstrap
+Version:  5.3.2
+Author: cmerlin
+*/
+
+body
+{
+    font-family: 'arial', sans-serif;
+    color: #333;
+    margin: 0;
+   
+}
+
+h2{
+    color: black;
+}
+
+main
+{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main#accueil {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+footer {
+    background-color: #eee;
+    margin-top: 20px;
+    padding: 20px;
+    
+}
+
+div[class^="menu-"] 
+{
+    background-color: #eee;
+    padding: 20px;
+}
+
+.menu, footer p, body > h1 {
+    padding: 0;
+    width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.menu .menu-item {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.menu .menu-item a, main article a{
+    text-decoration: none;
+    color: teal;
+    font-family: fantasy;
+    
+}
+.menu .menu-item a:hover, main article a:hover{
+    text-decoration: underline; 
+    color: black;  
+}
+
+article {
+    width: 300px;
+    margin-bottom: 20px;
+}
+/* 
+.sidebar
+{
+    left: right;
+} */
+
+
+
+
+
+
